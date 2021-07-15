@@ -185,11 +185,11 @@ nav{
 }
 .gallery-button{
     text-align: center;
-    padding: 40px;
     background-color: #f2f2f2;
     color: #5c5c5c;
     width: 100%;
     border: none;
+    padding: 40px 0;
     font-weight: bold;
     text-transform: uppercase;
     display: block;
@@ -565,10 +565,13 @@ img {vertical-align: middle;}
         padding: 0px 30px;  
     }
 }
-@media (max-width: 600px){
+@media (max-width: 669px){
     .header .banner-text h1{
         font-size: 100%;
     }
+}
+@media (max-width: 600px){
+    
     .header .banner-text button{
         margin-top: 40px;
     }
