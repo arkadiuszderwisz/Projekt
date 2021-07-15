@@ -2,6 +2,7 @@
     margin: 0 auto;
     padding: 0;
     font-family: "Nunito";
+    box-sizing: unset;
 }
 .header img{
     position: absolute;
@@ -215,7 +216,6 @@ nav{
 .holy-wall .holy-table {
     text-align: center;
     width: 100%;
-    padding: 50px;
 }
 .holy-wall .holy-table i{
     padding-bottom: 20px;
@@ -263,7 +263,7 @@ nav{
     height: 150px;
 }
 .form-box .form-special{
-    width: 830px;
+    width: 870px;
 }
 .form-box button{
     text-transform: uppercase;
@@ -303,7 +303,6 @@ nav{
 /* SLIDER */
 
 
-* {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -355,6 +354,11 @@ img {vertical-align: middle;}
     .about-us-two video{
         width: 1200px;
         height: 700px;
+    }
+}
+@media (max-width: 1500px){
+    .logos-box img{
+        padding: 0px 70px;  
     }
 }
 @media (max-width: 1400px){
@@ -421,6 +425,11 @@ img {vertical-align: middle;}
     }
     .footer .footer-content table .special-column{
         width: 0%;
+    }
+}
+@media (max-width: 1100px){
+    .logos-box img{
+        padding: 0px 50px;  
     }
 }
 @media (max-width: 1000px){
@@ -522,7 +531,7 @@ img {vertical-align: middle;}
         padding: 10px;
     }
     .form-box .form-special{
-        width: 630px;
+        width: 650px;
     }
 }
 @media (max-width: 800px){
@@ -532,13 +541,16 @@ img {vertical-align: middle;}
     .header .banner-text h1{
         font-size: 150%;
     }
+    .logos-box img{
+        padding: 0px 40px;  
+    }
 }
 @media (max-width: 700px){
     .form-box input{
         width: 200px;
     }
     .form-box .form-special{
-        width: 430px;
+        width: 450px;
     }
     .holy-wall .holy-table td{
         padding: 10px;
@@ -548,6 +560,9 @@ img {vertical-align: middle;}
     }
     .header li{
         margin-right: 10px;
+    }
+    .logos-box img{
+        padding: 0px 30px;  
     }
 }
 @media (max-width: 600px){
